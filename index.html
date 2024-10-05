@@ -1,159 +1,441 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SIGNIFICO</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body theme="black">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body theme="salmon">
     <div class="main w-full">
-        <div class="home section w-full h-screen relative">
-            <div class="hidden absolute z-[3] video w-full h-screen top-0 left-0 bg-black overflow-hidden">
-                <video autoplay loop muted class="w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" src="https://cdn.significo.com/videos/significo-main-hero.mp4"></video>
-            </div>
-            <div class="marqueecontainer w-full h-screen relative overflow-hidden">
-                <div class="heading absolute top-[7%] left-1/2 -translate-x-1/2">
-                    <h1 class="text-2xl font-semibold">Crafting a new paradigm of healthcare, one that is</h1>
-                </div>
-                <div class="absolute scale-[1] w-[90%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                    <div class="row -translate-x-1/2 w-full py-1 flex items-center gap-10 whitespace-nowrap">
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">empathetic</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">usefull</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">intuitive</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">empathetic</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">usefull</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">intuitive</h1>
-                       </div>
-
-                    </div>
-
-                    <div class="row -translate-x-1/3 w-full py-1 flex items-center gap-10 whitespace-nowrap">
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">empathetic</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">usefull</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">intuitive</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">empathetic</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">usefull</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">intuitive</h1>
-                       </div>
-
-                    </div>
-
-                    <div class="row -translate-x-2/2 w-full py-1 flex items-center gap-10 whitespace-nowrap">
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">empathetic</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">usefull</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">intuitive</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">empathetic</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">usefull</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">intuitive</h1>
-                       </div>
-
-                    </div>
-
-                    <div class="row -translate-x-3/4 w-full py-1 flex items-center gap-10 whitespace-nowrap">
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">empathetic</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">usefull</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">intuitive</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">empathetic</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">usefull</h1>
-                        <div class="img w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full"></div>
-                       </div>
-
-                       <div class="elem flex items-center gap-10">
-                        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl">intuitive</h1>
-                       </div>
-
-                    </div>
-                </div>
-            </div>
+      <div class="home section w-full h-screen relative">
+        <div class="btmtext absolute z-[4] bottom-[7%] w-52 left-[3%]">
+          <h1>
+            We build big ideas. Software. Apps. Tools. For real people. Real
+            lives.
+          </h1>
         </div>
+
+        <div
+          class="hidden absolute z-[3] video w-full h-screen top-0 left-0 bg-black overflow-hidden"
+        >
+          <video
+            autoplay
+            loop
+            muted
+            class="w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+            src="https://cdn.significo.com/videos/significo-main-hero.mp4"
+          ></video>
+        </div>
+
+        <div class="marqueecontainer w-full h-screen relative overflow-hidden">
+          <div
+            class="heading w-72 text-center absolute top-[7%] left-1/2 -translate-x-1/2"
+          >
+            <h1 class="text-xl font-regular">
+              We craft healthcare technology that is more human:
+            </h1>
+          </div>
+
+          <div
+            class="absolute scale-[1] w-[90%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+          >
+            <div
+              class="row -translate-x-1/2 w-full py-1 flex items-center gap-10 whitespace-nowrap"
+            >
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  empathetic
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  usefull
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  intuitive
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  empathetic
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  usefull
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  intuitive
+                </h1>
+              </div>
+            </div>
+
+            <div
+              class="row -translate-x-1/3 w-full py-1 flex items-center gap-10 whitespace-nowrap"
+            >
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  empathetic
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  usefull
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  intuitive
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  empathetic
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  usefull
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483182_Ellipse%20845-8.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  intuitive
+                </h1>
+              </div>
+            </div>
+
+            <div
+              class="row -translate-x-2/2 w-full py-1 flex items-center gap-10 whitespace-nowrap"
+            >
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  empathetic
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  usefull
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483195_Ellipse%20845.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  intuitive
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  empathetic
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  usefull
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  intuitive
+                </h1>
+              </div>
+            </div>
+
+            <div
+              class="row -translate-x-3/4 w-full py-1 flex items-center gap-10 whitespace-nowrap"
+            >
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  empathetic
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  usefull
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  intuitive
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483182_Ellipse%20845-8.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  empathetic
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483195_Ellipse%20845.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  usefull
+                </h1>
+                <div class="img w-[3.5rem] h-[3.5rem] rounded-full">
+                  <img
+                    src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.webp"
+                    class="w-full h-full object-cover overflow-hidden"
+                  />
+                </div>
+              </div>
+
+              <div class="elem flex items-center gap-10">
+                <h1
+                  class="font-['Pp_Neue_Machina_Plain_Light'] font-semibold text-7xl"
+                >
+                  intuitive
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="craft section w-full flex items-start justify-between px-10 py-10 gap-10 relative">
+        <div class="ltext w-[40%] sticky top-0 left-0">
+          <p class="text-2xl font-regular text-[--dcyan] leading-[2rem]">
+            Significo is a custom health software developer founded on the
+            belief that technology can transform healthcare to put people first.
+            We put humanity back at the center of healthcare with technology
+            that simplifies complexity, accelerates capacity, and improves
+            outcomes.
+          </p>
+          <h1
+            class="text-[4rem] leading-[4.5rem] mt-20 font-['Pp_Neue_Machina_Plain_Light'] mb-10"
+          >
+            Human-Centric Health Software
+          </h1>
+          <button class="w-fit px-10 py-5 border-2 border-[--dcyan]">
+            <div class="masker overflow-hidden">
+                <span class="inline-block uppercase font-semibold">Our Solutions</span>
+            </div>
+          </button>
+        </div>
+        <div class="cards w-[50%]"></div>
+      </div>
+
+      <div class="real section w-full">
+        <div class="container h-[400vh] relative">
+          <div class="slides sticky top-0 left-0 flex gap-20 w-full h-[100vh]">
+            <div class="slide flex items-center justify-center w-full h-screen flex-shrink-0">
+              <div class="text font-['Pp_Neue_Machina_Plain_Light']">
+                <h1 class="text-8xl">Real Talk,</h1>
+                <h1 class="text-8xl">Real Impact</h1>
+              </div>
+              <div class="image absolute rounded-full top-1/2 -translate-y-1/2 translate-x-1/2 right-0 w-[20rem] h-[20rem] bg-red-500 overflow-hidden">
+                <img class="w-full h-full object-cover object-top" src="https://images.pexels.com/photos/2474307/pexels-photo-2474307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+              </div>
+            </div>
+
+            <div class="slide w-full h-screen relative flex items-center justify-center flex-shrink-0">
+              <div class="img1 absolute z-[3] left-[25%] top-[75%] -translate-y-1/2 w-[12rem] h-[12rem] rounded-full overflow-hidden">
+                <img class="w-full h-full object-cover" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/65e9edafe67e88c12db2d78b_2-p-500.webp" alt="">
+              </div>
+
+              <div class="img2 absolute z-[3] left-1/2 top-0 -translate-y-1/2 w-[18rem] h-[18rem] rounded-full overflow-hidden">
+                <img class="w-full h-full object-cover" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/65e9ef82bb0daca6843ce305_7-p-500.webp" alt="">
+              </div>
+
+              <div class="img2 absolute z-[3] left-1/2 top-0 -translate-y-1/2 w-[18rem] h-[18rem] rounded-full overflow-hidden">
+                <img class="w-full h-full object-cover" src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/65e9ef82bb0daca6843ce305_7-p-500.webp" alt="">
+              </div>
+              
+              <div class="w-[60%] text-center relative">
+                <h3 class="w-1/3 text-left leading-8 font-semibold tracking-tight text-[1.3rem] absolute top-0 left-0 -translate-y-2/3 -translate-x-1/2">We’re on a mission to impact as many lives as possible and build a better company while we do it. Here’s our progress.</h3>
+                <h1 class="font-semibold font-['Pp_Neue_Machina_Plain_Light'] text-[12rem] leading-none text-white">20.4M</h1>
+                <h3 class="text-5xl font-['Pp_Neue_Machina_Plain_Light'] font-semibold leading-none">Real people — real lives — we have built products and solutions for.</h3>
+              </div>
+            </div>
+            <div class="slide w-full h-screen flex-shrink-0 bg-green-500"></div>
+            <div class="slide w-full h-screen flex-shrink-0 bg-yellow-500"></div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
