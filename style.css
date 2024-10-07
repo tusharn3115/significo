@@ -7,8 +7,16 @@
     --dcyan: #1f2f32;
 }
 
+.video{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
 *{
     scrollbar-width: thin;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 *::selection{
