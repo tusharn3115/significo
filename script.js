@@ -35,7 +35,7 @@ function homeAnimation() {
         ease: 'power1.inOut',
     },'b')
 }
-homeAnimation()
+homeAnimation();
 
 
 function real() {
@@ -50,7 +50,7 @@ function real() {
         ease: 'power1.inOut',
     })
 }
-real()
+real();
 
 
 function ourTeamAnim() {
@@ -65,7 +65,7 @@ function ourTeamAnim() {
         })
     })
 
-    el.addEventListener("mouseleave", (dets) => {
+    el.addEventListener("mouseleave", () => {
         gsap.to(el.querySelector(".picture"), {
             opacity: 0,
             ease: "power4",
@@ -74,40 +74,46 @@ function ourTeamAnim() {
     })
 })
 }
-ourTeamAnim()
+ourTeamAnim();
 
 
 function paraAnimation() {
     var clutter = '';
-document.querySelector(".textpara").textContent.split("").forEach((e) => {
-    if(e == " ") {
-        clutter += `<span>&nbsp;</span>`;
-    } else {
-        clutter += `<span>${e}</span>`;
-    }
-});
+    document.querySelector(".textpara").textContent.split("").forEach((e) => {
+        if(e === " ") {
+            clutter += `<span>&nbsp;</span>`;
+        } else {
+            clutter += `<span>${e}</span>`;
+        }
+    });
 
-document.querySelector(".textpara").innerHTML = clutter;
+    document.querySelector(".textpara").innerHTML = clutter;
 
-gsap.set(".textpara span", {
-    opacity: 0.1,
-})
+    gsap.set(".textpara span", {
+        opacity: 0.1,
+    })
 
-gsap.to(".textpara span", {
-    opacity: 1,
-    stagger: .03,
-    ease: "power1.inOut",
-    scrollTrigger: {
-        trigger: ".para",
-        start: "top 70%",
-        end: "bottom 90%",
-        scrub: 2,
-    },
-})
+    gsap.to(".textpara span", {
+        opacity: 1,
+        stagger: .03,
+        ease: "power1.inOut",
+        scrollTrigger: {
+            trigger: ".para",
+            start: "top 70%",
+            end: "bottom 90%",
+            scrub: 2,
+        },
+    })
 }
-paraAnimation()
+paraAnimation();
 
+function loco() {
+    (function () {
+        const locomotiveScroll = new LocomotiveScroll();
+    })();
+}
+loco();
 
-(function () {
-    var scroll = new LocomotiveScroll();
-})();
+function capsule() {
+    
+}
